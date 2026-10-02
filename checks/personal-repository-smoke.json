@@ -3,5 +3,13 @@
   "clinicalUse": false,
   "status": "DRAFT",
   "checkedAt": "2026-10-02T14:11:36.716Z",
-  "stage": "created"
+  "stage": "updated",
+  "checks": [
+    "personal connection",
+    "duplicate ignored",
+    "profile isolation",
+    "create",
+    "read back",
+    "conditional update"
+  ]
 }
