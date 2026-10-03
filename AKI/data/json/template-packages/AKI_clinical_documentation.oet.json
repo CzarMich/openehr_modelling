@@ -99,17 +99,30 @@
       }
     }
   ],
+  "generated": [
+    {
+      "kind": "opt",
+      "path": "templates/opt/AKI_clinical_documentation.a6bafe24772e.opt",
+      "sha256": "a6bafe24772e012d0b1da71d01179bae860f299f777cd064a5aed0f1fea614f3"
+    },
+    {
+      "kind": "web_template",
+      "path": "data/json/web-templates/AKI_clinical_documentation.7c9805d4d69d.webtemplate.json",
+      "sha256": "7c9805d4d69daf3b7ccb90840b5191232ab2d49f138ae749d932662081c0e86c"
+    }
+  ],
   "compilation": {
     "profile": "OET14_COMPILATION_RM_STRUCTURE",
-    "outputSha256": "0986b67b3056c1ad7078a24f6c88869bc555a0007d5f00a9930f9806efae47c3",
+    "outputSha256": "a6bafe24772e012d0b1da71d01179bae860f299f777cd064a5aed0f1fea614f3",
     "checks": {
       "adl14_parse": "PASS",
-      "opt14_xml_schema": "PASS",
-      "rm_structure_profile": "PASS",
+      "oet_application": "PASS",
       "full_aom_semantics": "NOT_EXECUTED",
-      "external_terminology": "NOT_EXECUTED",
+      "rm_structure_profile": "PASS",
       "clinical_review": "NOT_EXECUTED",
-      "oet_application": "PASS"
+      "web_template_generation": "PASS",
+      "opt14_xml_schema": "PASS",
+      "external_terminology": "NOT_EXECUTED"
     },
     "limitations": [
       "Explicit legacy compatibility profile; not complete AOM conformance.",
