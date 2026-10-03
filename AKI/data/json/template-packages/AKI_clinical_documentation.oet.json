@@ -1,0 +1,119 @@
+{
+  "schema": "openehr-template-package/1",
+  "status": "DRAFT",
+  "clinicalApproval": false,
+  "template": {
+    "path": "templates/oet/AKI_clinical_documentation.oet",
+    "sha256": "d051ee3973bc376301fada73abb3b91735b9f02cb45256498372762f49a9ce3f"
+  },
+  "archetypes": [
+    {
+      "identifier": "openEHR-EHR-ACTION.medication.v1",
+      "path": "archetypes/openEHR-EHR-ACTION.medication.v1.adl",
+      "sha256": "9c40bd65edd72bc9ae1888daa2b9fb029e2c60b4570269d4f34378c7fcaa53e0",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-ACTION.medication.v1",
+        "retrieved_at": "2026-10-03T01:42:55+00:00",
+        "sha256": "9c40bd65edd72bc9ae1888daa2b9fb029e2c60b4570269d4f34378c7fcaa53e0"
+      }
+    },
+    {
+      "identifier": "openEHR-EHR-ACTION.procedure.v1",
+      "path": "archetypes/openEHR-EHR-ACTION.procedure.v1.adl",
+      "sha256": "4a168ceffe3634525872f3182543eac2d3a46882b2d5f588ff24b4891e28c63e",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-ACTION.procedure.v1",
+        "retrieved_at": "2026-10-03T01:42:49+00:00",
+        "sha256": "4a168ceffe3634525872f3182543eac2d3a46882b2d5f588ff24b4891e28c63e"
+      }
+    },
+    {
+      "identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
+      "path": "archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+      "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
+        "retrieved_at": "2026-10-03T01:42:25+00:00",
+        "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141"
+      }
+    },
+    {
+      "identifier": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+      "path": "archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adl",
+      "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+        "retrieved_at": "2026-10-03T01:42:45+00:00",
+        "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba"
+      }
+    },
+    {
+      "identifier": "openEHR-EHR-OBSERVATION.body_weight.v2",
+      "path": "archetypes/openEHR-EHR-OBSERVATION.body_weight.v2.adl",
+      "sha256": "b32f1acbb84ea9e05eed91d10d0161cc4a9a17dcf33b460666bfc88d78100d7d",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-OBSERVATION.body_weight.v2",
+        "retrieved_at": "2026-10-03T01:42:40+00:00",
+        "sha256": "b32f1acbb84ea9e05eed91d10d0161cc4a9a17dcf33b460666bfc88d78100d7d"
+      }
+    },
+    {
+      "identifier": "openEHR-EHR-OBSERVATION.fluid_output.v1",
+      "path": "archetypes/openEHR-EHR-OBSERVATION.fluid_output.v1.adl",
+      "sha256": "0626b8e16a8d81d86812125e268fba7a49efcdbefa72defbebfdf2a2634b1438",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-OBSERVATION.fluid_output.v1",
+        "retrieved_at": "2026-10-03T01:42:34+00:00",
+        "sha256": "0626b8e16a8d81d86812125e268fba7a49efcdbefa72defbebfdf2a2634b1438"
+      }
+    },
+    {
+      "identifier": "openEHR-EHR-OBSERVATION.laboratory_test_result.v1",
+      "path": "archetypes/openEHR-EHR-OBSERVATION.laboratory_test_result.v1.adl",
+      "sha256": "faaa029fe528f0b8c2c4612bbc213afc7830cacc0d3ea10686c13a934856a413",
+      "provenance": {
+        "kind": "live_ckm",
+        "ckm": "default",
+        "source": "https://ckm.openehr.org/ckm/rest/",
+        "requested_identifier": "openEHR-EHR-OBSERVATION.laboratory_test_result.v1",
+        "retrieved_at": "2026-10-03T01:42:31+00:00",
+        "sha256": "faaa029fe528f0b8c2c4612bbc213afc7830cacc0d3ea10686c13a934856a413"
+      }
+    }
+  ],
+  "compilation": {
+    "profile": "OET14_COMPILATION_RM_STRUCTURE",
+    "outputSha256": "0986b67b3056c1ad7078a24f6c88869bc555a0007d5f00a9930f9806efae47c3",
+    "checks": {
+      "adl14_parse": "PASS",
+      "opt14_xml_schema": "PASS",
+      "rm_structure_profile": "PASS",
+      "full_aom_semantics": "NOT_EXECUTED",
+      "external_terminology": "NOT_EXECUTED",
+      "clinical_review": "NOT_EXECUTED",
+      "oet_application": "PASS"
+    },
+    "limitations": [
+      "Explicit legacy compatibility profile; not complete AOM conformance.",
+      "Unsupported OET/ADL constructs fail closed. No external modeller round-trip qualification is inferred."
+    ]
+  }
+}
