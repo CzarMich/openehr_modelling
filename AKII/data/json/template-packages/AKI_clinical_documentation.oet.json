@@ -11,7 +11,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-ACTION.medication.v1",
-        "retrieved_at": "2026-10-05T10:28:45+00:00",
+        "retrieved_at": "2026-10-05T12:55:27+00:00",
         "sha256": "9c40bd65edd72bc9ae1888daa2b9fb029e2c60b4570269d4f34378c7fcaa53e0",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -28,7 +28,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-ACTION.procedure.v1",
-        "retrieved_at": "2026-10-05T10:28:40+00:00",
+        "retrieved_at": "2026-10-05T12:55:22+00:00",
         "sha256": "4a168ceffe3634525872f3182543eac2d3a46882b2d5f588ff24b4891e28c63e",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -45,7 +45,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
-        "retrieved_at": "2026-10-05T10:28:15+00:00",
+        "retrieved_at": "2026-10-05T12:55:03+00:00",
         "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -62,7 +62,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
-        "retrieved_at": "2026-10-05T10:28:36+00:00",
+        "retrieved_at": "2026-10-05T12:55:18+00:00",
         "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -79,7 +79,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-OBSERVATION.body_weight.v2",
-        "retrieved_at": "2026-10-05T10:28:31+00:00",
+        "retrieved_at": "2026-10-05T12:55:13+00:00",
         "sha256": "b32f1acbb84ea9e05eed91d10d0161cc4a9a17dcf33b460666bfc88d78100d7d",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -96,7 +96,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-OBSERVATION.fluid_output.v1",
-        "retrieved_at": "2026-10-05T10:28:25+00:00",
+        "retrieved_at": "2026-10-05T12:55:10+00:00",
         "sha256": "0626b8e16a8d81d86812125e268fba7a49efcdbefa72defbebfdf2a2634b1438",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -113,7 +113,7 @@
         "ckm": "default",
         "kind": "live_ckm",
         "requested_identifier": "openEHR-EHR-OBSERVATION.laboratory_test_result.v1",
-        "retrieved_at": "2026-10-05T10:28:21+00:00",
+        "retrieved_at": "2026-10-05T12:55:09+00:00",
         "sha256": "faaa029fe528f0b8c2c4612bbc213afc7830cacc0d3ea10686c13a934856a413",
         "source": "https://ckm.openehr.org/ckm/rest/"
       },
@@ -136,26 +136,26 @@
       "Explicit legacy compatibility profile; not complete AOM conformance.",
       "Unsupported OET/ADL constructs fail closed. No external modeller round-trip qualification is inferred."
     ],
-    "outputSha256": "ef56b4f88f7c4b2b550d431271c03e0bb525684ad7ff5ab62b285c177b2733ff",
+    "outputSha256": "8e393e3acf08874907c2562d41cd7dab00e0775c263bd43a08cd30e0e92f4656",
     "profile": "OET14_COMPILATION_RM_STRUCTURE"
   },
   "generated": [
     {
       "kind": "opt",
       "path": "templates/opt/AKI_clinical_documentation.opt",
-      "sha256": "ef56b4f88f7c4b2b550d431271c03e0bb525684ad7ff5ab62b285c177b2733ff"
+      "sha256": "8e393e3acf08874907c2562d41cd7dab00e0775c263bd43a08cd30e0e92f4656"
     },
     {
       "kind": "web_template",
       "path": "data/json/web-templates/AKI_clinical_documentation.webtemplate.json",
-      "sha256": "08c6ee88e160fa1b9773e1b2c95e4c10983f03eddaaec6ea089d2abc4caeff7f"
+      "sha256": "7c9805d4d69daf3b7ccb90840b5191232ab2d49f138ae749d932662081c0e86c"
     }
   ],
   "schema": "openehr-template-package/2",
   "status": "DRAFT",
   "template": {
     "path": "templates/oet/AKI_clinical_documentation.oet",
-    "sha256": "f87f4e17364747e759121c798ee2ac3f6afabf204f3f53caec8fc59b05f12a33"
+    "sha256": "e5e070f001ddc26a26845743bf24d0987b4bd04a73f943a2039a1d0e69dc5574"
   },
   "versioning": "git-history-stable-paths"
 }
