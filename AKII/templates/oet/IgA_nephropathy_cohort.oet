@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="openEHR/v1/Template">
+  <id>1a2e1211-0360-4599-8590-c71cc9bb0510</id>
+  <name>IgA nephropathy cohort</name>
+  <description>
+    <lifecycle_state>Initial</lifecycle_state>
+    <details>
+      <purpose>Draft model: IgA nephropathy cohort</purpose>
+    </details>
+  </description>
+  <definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="COMPOSITION" archetype_id="openEHR-EHR-COMPOSITION.encounter.v1">
+    <Content xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.problem_diagnosis.v1" path="/content"/>
+    <Content xsi:type="OBSERVATION" archetype_id="openEHR-EHR-OBSERVATION.laboratory_test_result.v1" path="/content"/>
+    <Content xsi:type="OBSERVATION" archetype_id="openEHR-EHR-OBSERVATION.estimated_glomerular_filtration_rate.v0" path="/content"/>
+  </definition>
+</template>

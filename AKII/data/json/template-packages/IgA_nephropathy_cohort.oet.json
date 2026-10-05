@@ -1,0 +1,110 @@
+{
+  "archetypes": [
+    {
+      "git_blob": {
+        "sha1": "1f8c252f6f1da01429abdc7db35898bf42e0dafe",
+        "sha256": "aeecdaff7f15795c4aa9196b189f059590a6543c40811b93167e6e46a54e6c49"
+      },
+      "identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
+      "path": "archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+      "provenance": {
+        "ckm": "default",
+        "kind": "live_ckm",
+        "requested_identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
+        "retrieved_at": "2026-10-05T12:55:59+00:00",
+        "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141",
+        "source": "https://ckm.openehr.org/ckm/rest/"
+      },
+      "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141"
+    },
+    {
+      "git_blob": {
+        "sha1": "4f46c07b68da18d4b64f8bcfb565b79c1aaad8d3",
+        "sha256": "85697fd2172e5e86f7f077a0500cb1d17aee494dd0ab8a05aecd70f52e2f3143"
+      },
+      "identifier": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+      "path": "archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adl",
+      "provenance": {
+        "ckm": "default",
+        "kind": "live_ckm",
+        "requested_identifier": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+        "retrieved_at": "2026-10-05T12:56:07+00:00",
+        "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba",
+        "source": "https://ckm.openehr.org/ckm/rest/"
+      },
+      "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba"
+    },
+    {
+      "git_blob": {
+        "sha1": "df11aa52b7431a878f9d57df87fcdd3fc9829660",
+        "sha256": "61937389898fdd862b5baaf1b4ac95fcf42b1b73139ab8cf8cd68e01fff59c34"
+      },
+      "identifier": "openEHR-EHR-OBSERVATION.estimated_glomerular_filtration_rate.v0",
+      "path": "archetypes/openEHR-EHR-OBSERVATION.estimated_glomerular_filtration_rate.v0.adl",
+      "provenance": {
+        "ckm": "default",
+        "kind": "live_ckm",
+        "requested_identifier": "openEHR-EHR-OBSERVATION.estimated_glomerular_filtration_rate.v0",
+        "retrieved_at": "2026-10-05T12:56:14+00:00",
+        "sha256": "368cf3c81b4c3cd94cd52118d9a7003aca2e93b0c31a891d04ecfa6a9325fbc3",
+        "source": "https://ckm.openehr.org/ckm/rest/"
+      },
+      "sha256": "368cf3c81b4c3cd94cd52118d9a7003aca2e93b0c31a891d04ecfa6a9325fbc3"
+    },
+    {
+      "git_blob": {
+        "sha1": "029d47afbc30e33f9d0c5f5d2335f660d6593640",
+        "sha256": "825d375f96b8ad58764e4484bb11d82d133984312fb883ad05b490fc4ce5af1c"
+      },
+      "identifier": "openEHR-EHR-OBSERVATION.laboratory_test_result.v1",
+      "path": "archetypes/openEHR-EHR-OBSERVATION.laboratory_test_result.v1.adl",
+      "provenance": {
+        "ckm": "default",
+        "kind": "live_ckm",
+        "requested_identifier": "openEHR-EHR-OBSERVATION.laboratory_test_result.v1",
+        "retrieved_at": "2026-10-05T12:56:12+00:00",
+        "sha256": "faaa029fe528f0b8c2c4612bbc213afc7830cacc0d3ea10686c13a934856a413",
+        "source": "https://ckm.openehr.org/ckm/rest/"
+      },
+      "sha256": "faaa029fe528f0b8c2c4612bbc213afc7830cacc0d3ea10686c13a934856a413"
+    }
+  ],
+  "clinicalApproval": false,
+  "compilation": {
+    "checks": {
+      "adl14_parse": "PASS",
+      "clinical_review": "NOT_EXECUTED",
+      "external_terminology": "NOT_EXECUTED",
+      "full_aom_semantics": "NOT_EXECUTED",
+      "oet_application": "PASS",
+      "opt14_xml_schema": "PASS",
+      "rm_structure_profile": "PASS",
+      "web_template_generation": "PASS"
+    },
+    "limitations": [
+      "Explicit legacy compatibility profile; not complete AOM conformance.",
+      "Unsupported OET/ADL constructs fail closed. No external modeller round-trip qualification is inferred."
+    ],
+    "outputSha256": "f6b6ba905b667486b29e876c10d4ddb552a69f75ac23941b524bde72e157fe36",
+    "profile": "OET14_COMPILATION_RM_STRUCTURE"
+  },
+  "generated": [
+    {
+      "kind": "opt",
+      "path": "templates/opt/IgA_nephropathy_cohort.opt",
+      "sha256": "f6b6ba905b667486b29e876c10d4ddb552a69f75ac23941b524bde72e157fe36"
+    },
+    {
+      "kind": "web_template",
+      "path": "data/json/web-templates/IgA_nephropathy_cohort.webtemplate.json",
+      "sha256": "3151e87fad57cdce3936def1f924db4229d5e8f500a5a63ace7e873a5a44c9dd"
+    }
+  ],
+  "schema": "openehr-template-package/2",
+  "status": "DRAFT",
+  "template": {
+    "path": "templates/oet/IgA_nephropathy_cohort.oet",
+    "sha256": "f8ac6ba346424025c5a5eb5bd81d8dd5fcd7534cb0cd90ff3d491f5a9865210f"
+  },
+  "versioning": "git-history-stable-paths"
+}
