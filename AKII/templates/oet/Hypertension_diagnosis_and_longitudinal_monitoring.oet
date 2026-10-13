@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="openEHR/v1/Template">
+  <id>925f5e4f-cc13-4eec-a26e-0aae8c4a9047</id>
+  <name>Hypertension diagnosis and longitudinal monitoring</name>
+  <description>
+    <lifecycle_state>Initial</lifecycle_state>
+    <details>
+      <purpose>Draft model: Hypertension diagnosis and longitudinal monitoring</purpose>
+    </details>
+  </description>
+  <definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="COMPOSITION" archetype_id="openEHR-EHR-COMPOSITION.encounter.v1">
+    <Content xsi:type="OBSERVATION" archetype_id="openEHR-EHR-OBSERVATION.blood_pressure.v2" path="/content"/>
+    <Content xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.problem_diagnosis.v1" path="/content"/>
+    <Content xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.medication_summary.v1" path="/content"/>
+    <Content xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.clinical_synopsis.v1" path="/content"/>
+  </definition>
+</template>

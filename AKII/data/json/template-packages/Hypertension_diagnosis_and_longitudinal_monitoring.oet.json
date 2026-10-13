@@ -1,0 +1,122 @@
+{
+  "archetypes": [
+    {
+      "git_blob": {
+        "sha1": "1f8c252f6f1da01429abdc7db35898bf42e0dafe",
+        "sha256": "aeecdaff7f15795c4aa9196b189f059590a6543c40811b93167e6e46a54e6c49"
+      },
+      "identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
+      "path": "archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+        "ref": "dff295d55d494a36efa62e780af5146e414bca54",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141"
+      },
+      "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141"
+    },
+    {
+      "git_blob": {
+        "sha1": "ed3d4395323094c02955c797bc38c9b0d0edaf63",
+        "sha256": "7782e559947b567043c5bd0f52e349be9e9b9424e877a855a43ed1c457330d06"
+      },
+      "identifier": "openEHR-EHR-EVALUATION.clinical_synopsis.v1",
+      "path": "archetypes/openEHR-EHR-EVALUATION.clinical_synopsis.v1.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-EVALUATION.clinical_synopsis.v1.adl",
+        "ref": "dff295d55d494a36efa62e780af5146e414bca54",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "daaa1fc3896f903e245d42569dd608fc5df3abba0584f0d1a0225693deeb1fb6"
+      },
+      "sha256": "daaa1fc3896f903e245d42569dd608fc5df3abba0584f0d1a0225693deeb1fb6"
+    },
+    {
+      "git_blob": {
+        "sha1": "d51e22697adf96544ea78656ca3c912c8356d8f3",
+        "sha256": "6425b2149cbb7accf972103ed857930b796921b56c68b07a38a9c4b7ab71002c"
+      },
+      "identifier": "openEHR-EHR-EVALUATION.medication_summary.v1",
+      "path": "archetypes/openEHR-EHR-EVALUATION.medication_summary.v1.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-EVALUATION.medication_summary.v1.adl",
+        "ref": "dff295d55d494a36efa62e780af5146e414bca54",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "78ee272902eda43addb67a74ee9b492c4c55e0866bd9627f303cf2d7adae4700"
+      },
+      "sha256": "78ee272902eda43addb67a74ee9b492c4c55e0866bd9627f303cf2d7adae4700"
+    },
+    {
+      "git_blob": {
+        "sha1": "4f46c07b68da18d4b64f8bcfb565b79c1aaad8d3",
+        "sha256": "85697fd2172e5e86f7f077a0500cb1d17aee494dd0ab8a05aecd70f52e2f3143"
+      },
+      "identifier": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+      "path": "archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adl",
+        "ref": "dff295d55d494a36efa62e780af5146e414bca54",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba"
+      },
+      "sha256": "1abbe988bd8a4e040c93c5a2c9e74e2c620fa6704400060bd9f091b9410156ba"
+    },
+    {
+      "git_blob": {
+        "sha1": "a72a04d10143401e3daf02c94b3741121bf2dc86",
+        "sha256": "315263750c15074b8d041db6e8e028fa29d6c9e8e000f5b3b37db2e6a987e64c"
+      },
+      "identifier": "openEHR-EHR-OBSERVATION.blood_pressure.v2",
+      "path": "archetypes/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl",
+        "ref": "dff295d55d494a36efa62e780af5146e414bca54",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "71b9145c300bd9893c7d3093735c10f376b4817155a99e631790e7f1858e9257"
+      },
+      "sha256": "71b9145c300bd9893c7d3093735c10f376b4817155a99e631790e7f1858e9257"
+    }
+  ],
+  "clinicalApproval": false,
+  "compilation": {
+    "checks": {
+      "adl14_parse": "PASS",
+      "clinical_review": "NOT_EXECUTED",
+      "external_terminology": "NOT_EXECUTED",
+      "full_aom_semantics": "NOT_EXECUTED",
+      "oet_application": "PASS",
+      "opt14_xml_schema": "PASS",
+      "rm_structure_profile": "PASS",
+      "web_template_generation": "PASS"
+    },
+    "limitations": [
+      "Explicit legacy compatibility profile; not complete AOM conformance.",
+      "Unsupported OET/ADL constructs fail closed. No external modeller round-trip qualification is inferred."
+    ],
+    "outputSha256": "44af6100ff25d90b92de9a1aff5916120c70c175579ddfcb3b01c8cbd89c5a16",
+    "profile": "OET14_COMPILATION_RM_STRUCTURE"
+  },
+  "generated": [
+    {
+      "kind": "opt",
+      "path": "templates/opt/Hypertension_diagnosis_and_longitudinal_monitoring.opt",
+      "sha256": "44af6100ff25d90b92de9a1aff5916120c70c175579ddfcb3b01c8cbd89c5a16"
+    },
+    {
+      "kind": "web_template",
+      "path": "data/json/web-templates/Hypertension_diagnosis_and_longitudinal_monitoring.webtemplate.json",
+      "sha256": "e7590805d8114251fd6d4244e8c5b8db6456fa2ee9c1020aa36ac4cf930aabbb"
+    }
+  ],
+  "schema": "openehr-template-package/2",
+  "status": "DRAFT",
+  "template": {
+    "path": "templates/oet/Hypertension_diagnosis_and_longitudinal_monitoring.oet",
+    "sha256": "405e6566e5cc5002dfbad1d18c85a78ed044994dd1247eb170d20321969efac5"
+  },
+  "versioning": "git-history-stable-paths"
+}
