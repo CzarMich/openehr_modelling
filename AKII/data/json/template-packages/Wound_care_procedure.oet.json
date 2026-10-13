@@ -1,0 +1,74 @@
+{
+  "archetypes": [
+    {
+      "git_blob": {
+        "sha1": "0aea23a96a822f73bd309400e1e8131c8f21d3f7",
+        "sha256": "d6315a244980e07b797914ed2cc61e8b8a1335df921028c4f900058f5f8b9b66"
+      },
+      "identifier": "openEHR-EHR-ACTION.procedure.v1",
+      "path": "archetypes/openEHR-EHR-ACTION.procedure.v1.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-ACTION.procedure.v1.adl",
+        "ref": "dfa17d8f4beec83c25587a8e0bebf4b6ae6a4705",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "4a168ceffe3634525872f3182543eac2d3a46882b2d5f588ff24b4891e28c63e"
+      },
+      "sha256": "4a168ceffe3634525872f3182543eac2d3a46882b2d5f588ff24b4891e28c63e"
+    },
+    {
+      "git_blob": {
+        "sha1": "1f8c252f6f1da01429abdc7db35898bf42e0dafe",
+        "sha256": "aeecdaff7f15795c4aa9196b189f059590a6543c40811b93167e6e46a54e6c49"
+      },
+      "identifier": "openEHR-EHR-COMPOSITION.encounter.v1",
+      "path": "archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+      "provenance": {
+        "kind": "personal_repository",
+        "path": "AKII/archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+        "ref": "dfa17d8f4beec83c25587a8e0bebf4b6ae6a4705",
+        "repository": "476432ac-3814-4365-9c3a-6f4c8b888c28",
+        "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141"
+      },
+      "sha256": "b39e31818bbefd125531597f8ec755daf1662e9838e8bc770b719507c73d5141"
+    }
+  ],
+  "clinicalApproval": false,
+  "compilation": {
+    "checks": {
+      "adl14_parse": "PASS",
+      "clinical_review": "NOT_EXECUTED",
+      "external_terminology": "NOT_EXECUTED",
+      "full_aom_semantics": "NOT_EXECUTED",
+      "oet_application": "PASS",
+      "opt14_xml_schema": "PASS",
+      "rm_structure_profile": "PASS",
+      "web_template_generation": "PASS"
+    },
+    "limitations": [
+      "Explicit legacy compatibility profile; not complete AOM conformance.",
+      "Unsupported OET/ADL constructs fail closed. No external modeller round-trip qualification is inferred."
+    ],
+    "outputSha256": "51f0a60a1b9cf9f8f3fa9f54b36c7561f3b8720f01caca649efd1a6700a7a72e",
+    "profile": "OET14_COMPILATION_RM_STRUCTURE"
+  },
+  "generated": [
+    {
+      "kind": "opt",
+      "path": "templates/opt/Wound_care_procedure.opt",
+      "sha256": "51f0a60a1b9cf9f8f3fa9f54b36c7561f3b8720f01caca649efd1a6700a7a72e"
+    },
+    {
+      "kind": "web_template",
+      "path": "data/json/web-templates/Wound_care_procedure.webtemplate.json",
+      "sha256": "1f5fc8c81228e22c9636729f997f85d6f3e9fadb4ef654109875b12dea61dc21"
+    }
+  ],
+  "schema": "openehr-template-package/2",
+  "status": "DRAFT",
+  "template": {
+    "path": "templates/oet/Wound_care_procedure.oet",
+    "sha256": "046404ab78aca12b619e7278781d80332b38f8e2313db995a1c106cfadac727b"
+  },
+  "versioning": "git-history-stable-paths"
+}

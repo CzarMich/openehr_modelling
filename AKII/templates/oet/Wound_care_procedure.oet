@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="openEHR/v1/Template">
+  <id>4d0aadba-4ef3-47ec-b0a0-fb0a96b571eb</id>
+  <name>Wound care procedure</name>
+  <description>
+    <lifecycle_state>Initial</lifecycle_state>
+    <details>
+      <purpose>Draft model: Wound care procedure</purpose>
+    </details>
+  </description>
+  <definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="COMPOSITION" archetype_id="openEHR-EHR-COMPOSITION.encounter.v1">
+    <Content xsi:type="ACTION" archetype_id="openEHR-EHR-ACTION.procedure.v1" path="/content"/>
+  </definition>
+</template>
